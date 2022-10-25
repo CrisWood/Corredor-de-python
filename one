@@ -1,0 +1,6 @@
+
+{
+    "shell_cmd": "start cmd /C \"(C:/Users/Crist/AppData/Local/Programs/Python/Python310/python.exe \"$file\" || set /p = Failed execution. Press Enter to exit...) && set /p = Successful execution. Press Enter to exit...\"",
+    "selector": "source.python",
+    "working_dir": "$file_dir"
+}
